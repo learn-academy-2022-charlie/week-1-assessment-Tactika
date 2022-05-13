@@ -38,7 +38,22 @@ const temp3 = 212
 //      - 212 should output ==> '212 is at boiling point'
 //      - Any input that isn't a number should output ==> '<temperature> isn't a valid temperature, please try another valid number/temperature!'
 
-const boilingPointStatus = (temperature) => temperature === 212 ? `${temperature} is at boiling point`: temperature > 212 ? `${temperature} is above boiling point`: temperature < 212 ? `${temperature} is below boiling point`: `${temperature} isn't a valid temperature, please try another valid number/temperature!`
+// Long Ternary Option
+
+// const boilingPointStatus = (temperature) => temperature === 212 ? `${temperature} is at boiling point`: temperature > 212 ? `${temperature} is above boiling point`: temperature < 212 ? `${temperature} is below boiling point`: `${temperature} isn't a valid temperature, please try another valid number/temperature!`
+
+// More Readable Option
+const boilingPointStatus = (temperature) => {
+    if(temperature === 212) {
+        return `${temperature} is at boiling point`
+    } else if( temperature > 212 ) {
+        return `${temperature} is above boiling point`
+    } else if ( temperature < 212 ) {
+        return `${temperature} is below boiling point`
+    } else {
+        return `${temperature} isn't a valid temperature, please try another valid number/temperature!`
+    }      
+}
 
 console.log(boilingPointStatus(temp1)) // 42 should output  ==> '42 is below boiling point'
 console.log(boilingPointStatus(temp2)) // 350 should output ==> '350 is above boiling point'
