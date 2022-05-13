@@ -21,6 +21,19 @@ const temp1 = 42
 const temp2 = 350
 const temp3 = 212
 
+// --- Pseudocode --- //
+// Function ==> boilingPointStatus
+// Arguement = any given number which represents a temperature in fahrenheit==> (temperature)
+//
+// Logic
+//  - Conditional Statement to check if number/temperature is below 212 degrees fahrenheit, above 212 degrees fahrenheit, or equal to 212 degrees fahrenheit
+//      - if equal to 212 log/return '212 is at boiling point'
+//      - if greater than 212 log/return '<number> is above boiling point'
+//      - if less than 212 log/return '<number> is below boiling point'
+//
+// Expected output:
+//  - Output should be equivalent to a string data type.
+
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
