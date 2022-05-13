@@ -33,7 +33,23 @@ const temp3 = 212
 //
 // Expected output:
 //  - Output should be equivalent to a string data type.
+//      - 42 should output  ==> '42 is below boiling point'
+//      - 350 should output ==> '350 is above boiling point'
+//      - 212 should output ==> '212 is at boiling point'
+//      - Any input that isn't a number should output ==> '<temperature> isn't a valid temperature, please try another valid number/temperature!'
 
+const boilingPointStatus = (temperature) => temperature === 212 ? `${temperature} is at boiling point`: temperature > 212 ? `${temperature} is above boiling point`: temperature < 212 ? `${temperature} is below boiling point`: `${temperature} isn't a valid temperature, please try another valid number/temperature!`
+
+console.log(boilingPointStatus(temp1)) // 42 should output  ==> '42 is below boiling point'
+console.log(boilingPointStatus(temp2)) // 350 should output ==> '350 is above boiling point'
+console.log(boilingPointStatus(temp3)) // 212 should output ==> '212 is at boiling point'
+console.log(boilingPointStatus('ten')) // 'ten' should output ==> 'ten isn't a valid temperature, please try another valid number/temperature!'
+
+// Output:
+// 42 is below boiling point
+// 350 is above boiling point
+// 212 is at boiling point
+// ten isn't a valid temperature, please try another valid number/temperature!
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
