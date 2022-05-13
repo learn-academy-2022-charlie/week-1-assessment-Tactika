@@ -42,18 +42,26 @@ const temp3 = 212
 
 // const boilingPointStatus = (temperature) => temperature === 212 ? `${temperature} is at boiling point`: temperature > 212 ? `${temperature} is above boiling point`: temperature < 212 ? `${temperature} is below boiling point`: `${temperature} isn't a valid temperature, please try another valid number/temperature!`
 
-// More Readable Option
+// Short Ternary Option (Best Option)
 const boilingPointStatus = (temperature) => {
-    if(temperature === 212) {
-        return `${temperature} is at boiling point`
-    } else if( temperature > 212 ) {
-        return `${temperature} is above boiling point`
-    } else if ( temperature < 212 ) {
-        return `${temperature} is below boiling point`
-    } else {
-        return `${temperature} isn't a valid temperature, please try another valid number/temperature!`
-    }      
+    return temperature === 212 ? `${temperature} is at boiling point`
+    : temperature > 212 ? `${temperature} is above boiling point`
+    : temperature < 212 ? `${temperature} is below boiling point`
+    : `${temperature} isn't a valid temperature, please try another valid number/temperature!`
 }
+
+// More Verbose Option
+// const boilingPointStatus = (temperature) => {
+//     if(temperature === 212) {
+//         return `${temperature} is at boiling point`
+//     } else if( temperature > 212 ) {
+//         return `${temperature} is above boiling point`
+//     } else if ( temperature < 212 ) {
+//         return `${temperature} is below boiling point`
+//     } else {
+//         return `${temperature} isn't a valid temperature, please try another valid number/temperature!`
+//     }      
+// }
 
 console.log(boilingPointStatus(temp1)) // 42 should output  ==> '42 is below boiling point'
 console.log(boilingPointStatus(temp2)) // 350 should output ==> '350 is above boiling point'
@@ -65,6 +73,7 @@ console.log(boilingPointStatus('ten')) // 'ten' should output ==> 'ten isn't a v
 // 350 is above boiling point
 // 212 is at boiling point
 // ten isn't a valid temperature, please try another valid number/temperature!
+
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
 
