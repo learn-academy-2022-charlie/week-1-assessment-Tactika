@@ -47,8 +47,8 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
-  While working with objects in JavaScript, the way to access each bit of data you need to provide a key to get a value. JavaScript arrays are also considered objects, but they are comprised of a sequentially increasing index or number address starting from zero called an index instead of a named key to access the values.
-  The difference between and index and value is that the index represents a key number/address used to select a piece of data also known as the value. A value is data that can include strings, numbers, booleans, arrays, objects, or other non-typical data types.
+    While working with objects in JavaScript, the way to access each bit of data you need to provide a key to get a value. JavaScript arrays are also considered objects, but they are comprised of a sequentially increasing index or number address starting from zero called an index instead of a named key to access the values.
+    The difference between and index and value is that the index represents a key number/address used to select a piece of data also known as the value. A value is data that can include strings, numbers, booleans, arrays, objects, or other non-typical data types.
 
 4. What is iteration?
 
@@ -58,6 +58,8 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
+    Iteration in JavaScript is the process of looping through repetitive tasks using for, for/in, while, and do/while loops. Iteration ensures programmers stick to the DRY principle, which stands for Don't Repeat Yourself. Iteration allows for multiple pieces of data to passed into a function or loop that can complete the same computation, manipulation, or displaying of information.
+    This process can be completed using declarative built in methods, such as the forEach, map, and reduce methods. These built in methods typically use less code to complete the same iterations, but come at a cost of performance.
 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
@@ -71,6 +73,9 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
+  In software development code is typically completed by teams of programmers, in agile software development pair programming was developed to have programmers work in pairs also known as Extreme programming. The term extreme programming has been more recently called pair programming and has expanded from two developers using the same keyboard and mouse to a more remote colaboration. Teams typically consist of a driver and a navigator, but can include multiple navigators in larger pair groups. 
+  The driver is the programmer at the keyboard typing into the source code. The navigator is more focused on the research and directs the driver. The navigator ensures the code is free from errors and meets the company/teams code formatting. The pair are both responsible for the overall code but have twice the amount of eyes on any given project.
+  Pair programming can ensure the projects code has less coding errors, since there are two sets of eyes looking at every line completed. Experience is increased or distributed more effectively since teams typically consist of two differently experienced developers.
 
 
 ## Looking Ahead: Terms for Next Week
