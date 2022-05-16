@@ -22,6 +22,8 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
+    Git is a source code management version control software created by Linus Torvalds in 2005, which is now known for its branching techniques. The branching technique allows for programmers to collaborate on source code of their software using thousands of possible versions of code path implementation. 
+
 
 
 2. Which JavaScript operators will return a Boolean value?
