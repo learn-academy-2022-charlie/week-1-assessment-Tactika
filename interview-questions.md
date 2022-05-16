@@ -73,9 +73,9 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
-  In software development code is typically completed by teams of programmers, in agile software development pair programming was developed to have programmers work in pairs also known as Extreme programming. The term extreme programming has been more recently called pair programming and has expanded from two developers using the same keyboard and mouse to a more remote colaboration. Teams typically consist of a driver and a navigator, but can include multiple navigators in larger pair groups. 
-  The driver is the programmer at the keyboard typing into the source code. The navigator is more focused on the research and directs the driver. The navigator ensures the code is free from errors and meets the company/teams code formatting. The pair are both responsible for the overall code but have twice the amount of eyes on any given project.
-  Pair programming can ensure the projects code has less coding errors, since there are two sets of eyes looking at every line completed. Experience is increased or distributed more effectively since teams typically consist of two differently experienced developers.
+    In software development code is typically completed by teams of programmers, in agile software development pair programming was developed to have programmers work in pairs also known as Extreme programming. The term extreme programming has been more recently called pair programming and has expanded from two developers using the same keyboard and mouse to a more remote colaboration. Teams typically consist of a driver and a navigator, but can include multiple navigators in larger pair groups. 
+    The driver is the programmer at the keyboard typing into the source code. The navigator is more focused on the research and directs the driver. The navigator ensures the code is free from errors and meets the company/teams code formatting. The pair are both responsible for the overall code but have twice the amount of eyes on any given project.
+    Pair programming can ensure the projects code has less coding errors, since there are two sets of eyes looking at every line completed. Experience is increased or distributed more effectively since teams typically consist of two differently experienced developers.
 
 
 ## Looking Ahead: Terms for Next Week
@@ -83,11 +83,21 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 Research and define the following terms to the best of your ability.
 
 1. Higher Order Functions:
+   
+    > Functions that take in a function as an arguement or return a function.
 
 2. Jest:
+   
+    > A javascript testing framework.
 
 3. Objects:
+   
+    > Objects a stand alone entity, with a properties and type. Objects have properties which define their characteristics.
 
 4. Method:
+   
+    > Methods are the actions that can be performed on objects. 
 
 5. Classes:
+
+    > Classes are blueprints for creating objects.
