@@ -34,7 +34,9 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
-
+    JavaScript has multiple categories of operators, but one category is comprised of operators that are designed to compare items and return boolean values, which are the Comparison Operators. The operators included in this category are the equal to ==, equal value and equal type ===, not equal !=, not equal value or not equal type !==, greater than >, less than <, greater than or equal to >=, and less than or equal to <=.
+    The ternary operator while not evaluating to a boolean by itself, when used in it's entirety will provide a way to run code based on a truthy / falsey statement.
+    The logical not operator or bang operator will provide the oposite boolean value for any data or reverse any boolean outcome of any complete statement. The logical not operator should be used sparingly.
 
 3. What is an index? What is the difference between index and value?
 
@@ -45,7 +47,8 @@ INSTRUCTOR EXAMPLE: What is a conditional statement?
 
   Researched answer:
 
-
+  While working with objects in JavaScript, the way to access each bit of data you need to provide a key to get a value. JavaScript arrays are also considered objects, but they are comprised of a sequentially increasing index or number address starting from zero called an index instead of a named key to access the values.
+  The difference between and index and value is that the index represents a key number/address used to select a piece of data also known as the value. A value is data that can include strings, numbers, booleans, arrays, objects, or other non-typical data types.
 
 4. What is iteration?
 
